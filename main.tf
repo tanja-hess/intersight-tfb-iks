@@ -1,6 +1,6 @@
 #get the data fro the global vars WS
 data "terraform_remote_state" "global" {
-  backend = "remote"
+  backend = "agent"
   config = {
     organization = "Berlab"
     workspaces = {
